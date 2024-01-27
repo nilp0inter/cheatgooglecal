@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cheatgooglecal"
+version = "0.1.0"
+description = ""
+authors = ["Roberto Abdelkader Martínez Pérez <robertomartinezp@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pycookiecheat = "^0.6.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cheatgooglecal = "cheatgooglecal.cli:main"
