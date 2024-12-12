@@ -1,6 +1,7 @@
 {
   description = "A poetry flake";
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/8edf06bea5bcbee082df1b7369ff973b91618b8d";
     flake-utils.url = "github:numtide/flake-utils";
     poetry2nix = {
       url = "github:nix-community/poetry2nix";
